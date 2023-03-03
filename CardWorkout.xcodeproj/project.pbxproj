@@ -13,6 +13,7 @@
 		F6D19A5229AF21320006AA7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D19A5029AF21320006AA7B /* LaunchScreen.storyboard */; };
 		F6DF80E529B1216A00220387 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF80E429B1216A00220387 /* CardSelectionVC.swift */; };
 		F6DF80E729B126B700220387 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF80E629B126B700220387 /* CWButton.swift */; };
+		F6F47B8029B2625D009D9987 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F47B7F29B2625D009D9987 /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F6D19A5329AF21320006AA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6DF80E429B1216A00220387 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		F6DF80E629B126B700220387 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		F6F47B7F29B2625D009D9987 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				F6D19A4529AF21310006AA7B /* AppDelegate.swift */,
 				F6D19A4729AF21310006AA7B /* SceneDelegate.swift */,
+				F6DF80E429B1216A00220387 /* CardSelectionVC.swift */,
+				F6DF80E629B126B700220387 /* CWButton.swift */,
+				F6F47B7F29B2625D009D9987 /* RulesVC.swift */,
 				F6D19A4E29AF21320006AA7B /* Assets.xcassets */,
 				F6D19A5029AF21320006AA7B /* LaunchScreen.storyboard */,
 				F6D19A5329AF21320006AA7B /* Info.plist */,
-				F6DF80E429B1216A00220387 /* CardSelectionVC.swift */,
-				F6DF80E629B126B700220387 /* CWButton.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D19A4629AF21310006AA7B /* AppDelegate.swift in Sources */,
+				F6F47B8029B2625D009D9987 /* RulesVC.swift in Sources */,
 				F6D19A4829AF21310006AA7B /* SceneDelegate.swift in Sources */,
 				F6DF80E529B1216A00220387 /* CardSelectionVC.swift in Sources */,
 				F6DF80E729B126B700220387 /* CWButton.swift in Sources */,

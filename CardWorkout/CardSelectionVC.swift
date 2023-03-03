@@ -24,6 +24,7 @@ class CardSelectionVC: UIViewController {
         configureCardImageView()
         configureStopButton()
         configureResetButton()
+        configureRulesButton()
     }
     
     func configureCardImageView() {
@@ -57,6 +58,17 @@ class CardSelectionVC: UIViewController {
             resetButton.heightAnchor.constraint(equalToConstant: 50),
             resetButton.leadingAnchor.constraint(equalTo: stopButton.leadingAnchor),
             resetButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor, constant: 20)
+        ])
+    }
+    
+    func configureRulesButton() {
+        view.addSubview(rulesButton)
+        
+        NSLayoutConstraint.activate([
+            rulesButton.widthAnchor.constraint(equalToConstant: 115),
+            rulesButton.heightAnchor.constraint(equalToConstant: 50),
+            rulesButton.trailingAnchor.constraint(equalTo: stopButton.trailingAnchor),
+            rulesButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor, constant: 20)
         ])
     }
     
